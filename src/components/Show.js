@@ -15,10 +15,9 @@ const Show = ({ formData }) => {
   } = formData;
   return (
     <div>
-      <h1>{Show}</h1>
       <h1> userName:{userName}</h1>
       <h2> email:{email}</h2>
-      <h3> age:{age}</h3>
+      <h3> Age:{age}</h3>
       <h4> address:{address}</h4>
       <h5> userState:{userState}</h5>
       <h6> country:{country}</h6>
